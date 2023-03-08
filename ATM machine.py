@@ -11,16 +11,31 @@ def greetings():
         access = input("Please try again, enter ONLY numbers!\n ")
     return True
 
-greetings()
+def login():
+    accNumb = int(input("Please enter your pin number below. "))
+    secret = 234567
+    while accNumb != secret:
+        print("Invalid pin. Please try again.")
+        accNumb = int(input('Enter your pin number below.'))
 
-accNumb = int(input("Please enter your account number below. "))
-emptySymbol = []
-for index in emptySymbol:
-    index < 6
-    emptySymbol[index] = accNumb
-    emptySymbol.append = accNumb
-    index += 1
-print(emptySymbol)
+def fast_cash():
+
+def transfer():
+
+def cash_deposit():
+
+def balance_enquiry():
+
+def bill_payment():
+
+def recent_transactions():
+
+
+greetings()
+print('')
+
+login()
+
     
 
 
